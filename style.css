@@ -1,0 +1,345 @@
+@font-face {
+  font-family: Chirota Regular;
+  src: url("Chirota Regular.otf");
+}
+
+
+#background {
+  z-index: 1;
+  position:relative;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 143mm;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Chirota Regular;
+}
+.section{
+    position: relative;
+}
+#Apple_Logo{
+    position: absolute;
+    z-index: 3; 
+}
+
+body {
+
+    font-family: sans-serif;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+    background-position: top;
+    background-size: cover;
+
+  }
+  
+  svg {
+    position: absolute;
+    width: 200px;
+    fill: rgb(0, 81, 255);
+  }
+  @media (max-width: 768px) {
+    svg {
+      animation-delay: 5s;
+      width: 150px;
+    }
+  }
+  
+
+  .Wochentag_Datum{
+    font-size: 37px;
+    color: white;
+    position: absolute;
+    left: 12%;
+    top: 115px;
+    width: 200px;
+  }
+
+
+  
+  .Minuten_Stunden {
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 182px;
+  }
+  
+  
+  .Doppelpunkt {
+    font-size: 62px;
+    color: rgba(255, 255, 255, 0.63);
+    position: absolute;
+    left: 93px;
+    top: 178px;
+  }
+  
+
+
+.sekunden_aktiv #Doppelpunkt{
+  color: white;
+}
+
+
+
+
+
+
+.verschiebung00_aktiv #Doppelpunkt{
+  left: 98px;
+  top: 178px;
+}
+
+.verschiebung00_aktiv .Minuten_Stunden{
+  left: 34px;
+  top: 182px;
+}
+
+
+.verschiebung01_aktiv #Doppelpunkt{
+  left: 93px;
+  top: 178px;
+}
+
+.verschiebung01_aktiv .Minuten_Stunden{
+  left: 40px;
+  top: 182px;
+}
+
+
+.verschiebung02_aktiv #Doppelpunkt{
+  left: 98px;
+  top: 178px;
+}
+
+.verschiebung02_aktiv .Minuten_Stunden{
+  left: 35px;
+  top: 182px;
+}
+
+
+
+.verschiebung03_aktiv #Doppelpunkt{
+  left: 99px;
+  top: 178px;
+}
+
+.verschiebung03_aktiv .Minuten_Stunden{
+  left: 36px;
+  top: 182px;
+}
+
+
+.verschiebung04_aktiv #Doppelpunkt{
+  left: 100px;
+  top: 178px;
+}
+
+.verschiebung04_aktiv .Minuten_Stunden{
+  left: 34px;
+  top: 182px;
+}
+
+
+.verschiebung05_aktiv #Doppelpunkt{
+  left: 99px;
+  top: 178px;
+}
+
+.verschiebung05_aktiv .Minuten_Stunden{
+  left: 35px;
+  top: 182px;
+}
+
+
+.verschiebung06_aktiv #Doppelpunkt{
+  left: 101px;
+  top: 178px;
+}
+
+.verschiebung06_aktiv .Minuten_Stunden{
+  left: 36px;
+  top: 182px;
+}
+
+
+.verschiebung07_aktiv #Doppelpunkt{
+  left: 98px;
+  top: 178px;
+}
+
+.verschiebung07_aktiv .Minuten_Stunden{
+  left: 38px;
+  top: 182px;
+}
+
+
+.verschiebung08_aktiv #Doppelpunkt{
+  left: 98px;
+  top: 178px;
+}
+
+.verschiebung08_aktiv .Minuten_Stunden{
+  left: 33px;
+  top: 182px;
+}
+
+
+.verschiebung09_aktiv #Doppelpunkt{
+  left: 98px;
+  top: 178px;
+}
+
+.verschiebung09_aktiv .Minuten_Stunden{
+  left: 35px;
+  top: 182px;
+}
+
+
+.verschiebung10_aktiv #Doppelpunkt{
+  left: 93.5px;
+  top: 178px;
+}
+
+.verschiebung10_aktiv .Minuten_Stunden{
+  left: 40px;
+  top: 182px;
+}
+
+.verschiebung11_aktiv #Doppelpunkt{
+  left: 88px;
+  top: 178px;
+}
+
+.verschiebung11_aktiv .Minuten_Stunden{
+  left: 47px;
+  top: 182px;
+}
+
+.verschiebung12_aktiv #Doppelpunkt{
+  left: 93px;
+  top: 178px;
+}
+
+.verschiebung12_aktiv .Minuten_Stunden{
+  left: 42px;
+  top: 182px;
+}
+
+.verschiebung13_aktiv #Doppelpunkt{
+  left: 92px;
+  top: 178px;
+}
+
+.verschiebung13_aktiv .Minuten_Stunden{
+  left: 41px;
+  top: 182px;
+}
+
+.verschiebung14_aktiv #Doppelpunkt{
+  left: 93px;
+  top: 178px;
+}
+
+.verschiebung14_aktiv .Minuten_Stunden{
+  left: 38px;
+  top: 182px;
+}
+
+.verschiebung15_aktiv #Doppelpunkt{
+  left: 93px;
+  top: 178px;
+}
+
+.verschiebung15_aktiv .Minuten_Stunden{
+  left: 40px;
+  top: 182px;
+}
+
+.verschiebung16_aktiv #Doppelpunkt{
+  left: 93px;
+  top: 178px;
+}
+
+.verschiebung16_aktiv .Minuten_Stunden{
+  left: 40px;
+  top: 182px;
+}
+
+.verschiebung17_aktiv #Doppelpunkt{
+  left: 88px;
+  top: 178px;
+}
+
+.verschiebung17_aktiv .Minuten_Stunden{
+  left: 40px;
+  top: 182px;
+}
+
+.verschiebung18_aktiv #Doppelpunkt{
+  left: 93px;
+  top: 178px;
+}
+
+.verschiebung18_aktiv .Minuten_Stunden{
+  left: 40px;
+  top: 182px;
+}
+
+.verschiebung19_aktiv #Doppelpunkt{
+  left: 92px;
+  top: 178px;
+}
+
+.verschiebung19_aktiv .Minuten_Stunden{
+  left: 40px;
+  top: 182px;
+}
+
+
+.verschiebung20_aktiv #Doppelpunkt{
+  left: 97px;
+  top: 178px;
+}
+
+.verschiebung20_aktiv .Minuten_Stunden{
+  left: 33px;
+  top: 182px;
+}
+
+.verschiebung21_aktiv #Doppelpunkt{
+  left: 91.5px;
+  top: 178px;
+}
+
+.verschiebung21_aktiv .Minuten_Stunden{
+  left: 40px;
+  top: 182px;
+}
+
+.verschiebung22_aktiv #Doppelpunkt{
+  left: 96px;
+  top: 178px;
+}
+
+.verschiebung22_aktiv .Minuten_Stunden{
+  left: 34px;
+  top: 182px;
+}
+
+.verschiebung23_aktiv #Doppelpunkt{
+  left: 95px;
+  top: 178px;
+}
+
+.verschiebung23_aktiv .Minuten_Stunden{
+  left: 34px;
+  top: 182px;
+}
